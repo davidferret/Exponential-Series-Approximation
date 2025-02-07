@@ -1,14 +1,12 @@
 # Exponential Series Approximation
 
-This program calculates the exponential function \( e^x \) using a Taylor series expansion. It compares the approximation to the built-in C library function and provides an option to export the convergence data to a CSV file.
+This program calculates the exponential function \( e^x \) using a Taylor series expansion. It compares the approximation to the built-in C library function and also provides an option to export the convergence data to a CSV file for further analysis.
 
-- **Custom Exponential Calculation**: Computes \( e^x \) using a user-defined number of terms.
-- **Precision Control**: Allows users to set a precision tolerance for stopping criteria.
-- **Comparison with Standard Function**: Evaluates the difference between the approximation and the standard C math library function.
-- **CSV Export Option**: Saves the series convergence data for further analysis.
-- **User-Friendly Input Handling**: Ensures valid numeric inputs for accuracy.
+You can compute \( e^x \) with a user-defined number of terms, allowing you to control the precision. The program also lets you set a precision tolerance for stopping criteria, giving you flexibility in how accurate you want the approximation to be.
 
-## Example Usage
+In addition to calculating the exponential function, it compares the results with the standard C math library function to evaluate the difference between the approximation and the built-in function. If you'd like, you can export the series convergence data to a CSV file for later use or analysis. The program also ensures you enter valid numeric inputs, making the process more user-friendly and accurate.
+
+## Example Output
 ```
 Enter the value of x: 2.0
 Enter number of terms (n): 20
